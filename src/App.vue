@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { h, ref } from 'vue'
+import { h, ref, CSSProperties } from 'vue'
 import { NSwitch, NDatePicker, NInputNumber } from 'naive-ui'
 import type { DataTableColumns } from 'naive-ui'
 
@@ -168,7 +168,8 @@ const data: RowData[] = ref([
       text-transform: uppercase;
       font-weight: 600;
       color: white;
-      background: #2f70bd;
+      background: #4e82e8;
+      border-right: 1px solid rgba(243, 243, 247, .3);
 
       .n-data-table-sorter {
         color: white;
