@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { h, ref, CSSProperties } from 'vue'
+import { h, ref } from 'vue'
 import { NSwitch, NDatePicker, NInputNumber } from 'naive-ui'
 import type { DataTableColumns } from 'naive-ui'
 
